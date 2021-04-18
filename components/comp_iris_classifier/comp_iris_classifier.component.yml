@@ -1,0 +1,6 @@
+name: TensorFlow.js Iris Classifier
+description: Classification using Iris data set
+template: index.html
+js:
+  https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js: { type: external, minified: true }
+  tf_iris_script.js: {}

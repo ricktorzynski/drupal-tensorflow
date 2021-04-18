@@ -1,0 +1,6 @@
+name: TensorFlow.js Module
+description: A module of examples of TensorFlow.js deployed as blocks using Component module.
+type: module
+core_version_requirement: ^8 || ^9
+dependencies:
+  - component:component

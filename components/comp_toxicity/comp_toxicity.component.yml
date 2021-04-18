@@ -1,0 +1,9 @@
+name: TensorFlow.js Toxicity Classifier
+description: Classification of sentences for toxicity
+template: index.html
+js:
+  https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js: { type: external, minified: true }
+  https://cdn.jsdelivr.net/npm/@tensorflow-models/toxicity: { type: external, minified: false }
+  tf_toxicity_script.js: {}
+dependencies:
+  - core/jquery

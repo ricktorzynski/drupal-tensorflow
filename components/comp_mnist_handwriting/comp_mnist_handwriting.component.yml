@@ -1,0 +1,11 @@
+name: TensorFlow.js MNIST Handwriting Classifier
+description: Classification of handwritten digits
+template: index.html
+js:
+  https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js: { type: external, minified: true }
+  https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.5.0/dist/tfjs-vis.umd.min.js: { type: external, minified: true }
+  tf_handwriting_script.js: {}
+form_configuration:
+  epochs:
+    type: textfield
+    title: Number of Epochs

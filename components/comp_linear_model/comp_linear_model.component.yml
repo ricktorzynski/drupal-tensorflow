@@ -1,0 +1,6 @@
+name: TensorFlow.js Linear Model
+description: Example of using model JSON file for model configuration
+template: index.html
+js:
+  https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js: { type: external, minified: true }
+  tf_linear_model_script.js: {}

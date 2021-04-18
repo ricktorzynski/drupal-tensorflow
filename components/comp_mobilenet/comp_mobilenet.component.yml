@@ -1,0 +1,9 @@
+name: TensorFlow.js Mobilenet Classifier
+description: Using Mobilenet remote model for Classification.
+template: index.html
+js:
+  https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js: { type: external, minified: true }
+  https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0: { type: external, minified: false }
+  tf_mobilenet_script.js: {}
+dependencies:
+  - core/jquery
